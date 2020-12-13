@@ -48,6 +48,7 @@
     <Compile Include="Enums\TreeElements.cs" />
     <Compile Include="Enums\ViewTree.cs" />
     <Compile Include="Helpers\Comparers\TreesComparer.cs" />
+    <Compile Include="Helpers\Extentions\Extentions.cs" />
     <Compile Include="Model\IProduct.cs" />
     <Compile Include="Model\Reserv\Park.cs" />
     <Compile Include="Model\Reserv\Tress.cs" />

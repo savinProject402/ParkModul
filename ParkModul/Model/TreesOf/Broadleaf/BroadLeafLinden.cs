@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.TreesOf.Broadleaf
+﻿namespace ParkModul.Model.TreesOf.Broadleaf
 {
+    using ParkModul.Enums;
     public class BroadLeafLinden : TreesOf
     {
         public BroadLeafLinden(int age, int height)

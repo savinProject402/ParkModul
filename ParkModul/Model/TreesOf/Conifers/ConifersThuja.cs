@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.TreesOf.Conifers
+﻿namespace ParkModul.Model.TreesOf.Conifers
 {
+    using ParkModul.Enums;
     public class ConifersThuja : TreesOf
     {
         public ConifersThuja(int age, int height)

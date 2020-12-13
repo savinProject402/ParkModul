@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Model.TreesOf;
-
-namespace ParkModul.Entities
+﻿namespace ParkModul.Entities
 {
+    using ParkModul.Model.TreesOf;
     public class Parker
     {
         public TreesOf[] TreesOfs { get; set; }

@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.TreesOf
+﻿namespace ParkModul.Model.TreesOf
 {
+    using ParkModul.Enums;
     public class EvergreenCypress : TreesOf
     {
         public EvergreenCypress(int age, int height)

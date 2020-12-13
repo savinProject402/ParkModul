@@ -1,9 +1,6 @@
-﻿using System;
-using ParkModul.Services;
-using ParkModul.Entities;
-
-namespace ParkModul.Abstractions
+﻿namespace ParkModul.Abstractions
 {
+    using ParkModul.Entities;
     public interface IParkService
     {
         Parker MaceParcer();

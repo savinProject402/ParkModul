@@ -1,7 +1,4 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.Reserv
+﻿namespace ParkModul.Model.Reserv
 {
     public abstract class Tress : IProduct
     {

@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.TreesOf.Deciduous
+﻿namespace ParkModul.Model.TreesOf.Deciduous
 {
+    using ParkModul.Enums;
     public class DeciduousChestnut : TreesOf
     {
         public DeciduousChestnut(int age, int height)

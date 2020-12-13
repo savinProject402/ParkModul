@@ -1,8 +1,7 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.TreesOf
+﻿namespace ParkModul.Model.TreesOf
 {
+    using System;
+    using ParkModul.Enums;
     public class EvergreenPine : TreesOf
     {
         public EvergreenPine(int age, int height)

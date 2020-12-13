@@ -1,15 +1,11 @@
-﻿using System;
-using ParkModul.Model.Reserv;
-using ParkModul.Abstractions;
-using ParkModul.Entities;
-using ParkModul.Model.TreesOf.Deciduous;
-using ParkModul.Model.TreesOf;
-using ParkModul.Model.TreesOf.Broadleaf;
-using ParkModul.Model.TreesOf.Conifers;
-
-
-namespace ParkModul.Services
+﻿namespace ParkModul.Services
 {
+    using ParkModul.Abstractions;
+    using ParkModul.Entities;
+    using ParkModul.Model.TreesOf.Deciduous;
+    using ParkModul.Model.TreesOf;
+    using ParkModul.Model.TreesOf.Broadleaf;
+    using ParkModul.Model.TreesOf.Conifers;
     public class ParkService : IParkService
     {
         public ParkService()

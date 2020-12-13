@@ -1,8 +1,6 @@
-﻿using System;
-using ParkModul.Enums;
-
-namespace ParkModul.Model.Reserv
+﻿namespace ParkModul.Model.Reserv
 {
+    using ParkModul.Enums;
     public abstract class Park : Tress
     {
         protected Park (int age, int height)

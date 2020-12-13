@@ -1,9 +1,7 @@
-﻿using System;
-using ParkModul.Model.Reserv;
-using System.Collections;
-
-namespace ParkModul.Helpers.Comparers
+﻿namespace ParkModul.Helpers.Comparers
 {
+    using ParkModul.Model.Reserv;
+    using System.Collections;
     public class TreesComparer : IComparer
     {
         public int Compare(object first, object second)

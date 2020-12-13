@@ -1,9 +1,7 @@
-﻿using System;
-using ParkModul.Enums;
-using ParkModul.Model.Reserv;
-
-namespace ParkModul.Model.TreesOf
+﻿namespace ParkModul.Model.TreesOf
 {
+    using ParkModul.Enums;
+    using ParkModul.Model.Reserv;
     public abstract class TreesOf : Tress
     {
         protected TreesOf(int age,int height)

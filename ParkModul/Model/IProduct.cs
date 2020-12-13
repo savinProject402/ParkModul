@@ -1,7 +1,5 @@
 ﻿namespace ParkModul.Model.Reserv
 {
-    using System;
-    using ParkModul.Enums;
     public interface IProduct
     {
         string Name { get; }

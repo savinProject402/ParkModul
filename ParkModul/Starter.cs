@@ -1,10 +1,10 @@
-﻿using System;
-using ParkModul.Abstractions;
-using ParkModul.Services;
-using ParkModul.Helpers.Comparers;
-namespace ParkModul
+﻿namespace ParkModul
 {
-   public class Starter
+    using System;
+    using ParkModul.Abstractions;
+    using ParkModul.Services;
+    using ParkModul.Helpers.Comparers;
+    public class Starter
     {
         private readonly IParkService parkService;
         public Starter()
@@ -21,7 +21,6 @@ namespace ParkModul
                     $" Height: {park.TreesOfs[i].Height}M  Count: {park.TreesOfs[i].Count} Type: {park.TreesOfs[i].TypeViewTree}");
             }
             Console.WriteLine($"Count Trees of Park: {park.Count}");
-            
         }
     }
 }
