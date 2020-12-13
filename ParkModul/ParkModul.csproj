@@ -51,8 +51,15 @@
     <Compile Include="Model\IProduct.cs" />
     <Compile Include="Model\Reserv\Park.cs" />
     <Compile Include="Model\Reserv\Tress.cs" />
+    <Compile Include="Model\TreesOf\Broadleaf\BroadLeafAsh.cs" />
+    <Compile Include="Model\TreesOf\Broadleaf\BroadLeafLinden.cs" />
+    <Compile Include="Model\TreesOf\Broadleaf\BroadLeafOak.cs" />
+    <Compile Include="Model\TreesOf\Conifers\ConifersCedar.cs" />
+    <Compile Include="Model\TreesOf\Conifers\ConifersSpruce.cs" />
+    <Compile Include="Model\TreesOf\Conifers\ConifersThuja.cs" />
     <Compile Include="Model\TreesOf\Deciduous\DeciduousBirch.cs" />
     <Compile Include="Model\TreesOf\Deciduous\DeciduousChestnut.cs" />
+    <Compile Include="Model\TreesOf\Deciduous\DeciduousPoplar.cs" />
     <Compile Include="Model\TreesOf\Evergreen\EvergreenCypress.cs" />
     <Compile Include="Model\TreesOf\Evergreen\EvergreenPine.cs" />
     <Compile Include="Model\TreesOf\TreesOf.cs" />
